@@ -1,0 +1,98 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-banner-document": "new banner document",
+      "new-content-folder": "new content folder",
+      "new-content-document": "new content document",
+      "new-resource-bundle": "new resource bundle",
+      "new-untranslated-folder": "new untranslated folder"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-banner-document": "nieuwe banner",
+      "new-content-folder": "nieuwe contentmap",
+      "new-content-document": "nieuw content document",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-untranslated-folder": "nieuwe onvertaalde map"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-content-document": "Neues Content-Document",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-banner-document": "nouvelle bannière",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-content-document": "nouveau document contenu",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-untranslated-folder": "nouveau dossier non traduit"
+    }
+  },
+  "hippo:types":   {
+    "gitintegration:bannerdocument":     {
+      "en":       {
+        "gitintegration:image": "Image",
+        "gitintegration:link": "Link",
+        "gitintegration:content": "Content",
+        "jcr:name": "Banner",
+        "gitintegration:title": "Title"
+      },
+      "nl":       {
+        "gitintegration:image": "Afbeelding",
+        "gitintegration:link": "Link",
+        "gitintegration:content": "Inhoud",
+        "jcr:name": "Banner",
+        "gitintegration:title": "Titel"
+      },
+      "fr":       {
+        "gitintegration:image": "Image",
+        "gitintegration:link": "Lien",
+        "gitintegration:content": "Contenu",
+        "jcr:name": "Bannière",
+        "gitintegration:title": "Titre"
+      },
+      "de":       {
+        "gitintegration:image": "Abbildung",
+        "gitintegration:link": "Link",
+        "gitintegration:content": "Inhalt",
+        "jcr:name": "Banner",
+        "gitintegration:title": "Titel"
+      }
+    },
+    "gitintegration:contentdocument":     {
+      "en":       {
+        "gitintegration:content": "Content",
+        "gitintegration:publicationdate": "Publication date",
+        "jcr:name": "Simple Document",
+        "gitintegration:title": "Title",
+        "gitintegration:introduction": "Introduction"
+      },
+      "nl":       {
+        "gitintegration:content": "Inhoud",
+        "gitintegration:publicationdate": "Publicatiedatum",
+        "jcr:name": "Eenvoudig Document",
+        "gitintegration:title": "Titel",
+        "gitintegration:introduction": "Introductie"
+      },
+      "fr":       {
+        "gitintegration:content": "Contenu",
+        "gitintegration:publicationdate": "Date de publication",
+        "jcr:name": "Document simple",
+        "gitintegration:title": "Titre",
+        "gitintegration:introduction": "Introduction"
+      },
+      "de":       {
+        "gitintegration:content": "Inhalt",
+        "gitintegration:publicationdate": "Publikationsdatum",
+        "jcr:name": "Einfaches Dokument",
+        "gitintegration:title": "Titel",
+        "gitintegration:introduction": "Einführung"
+      }
+    }
+  }
+}

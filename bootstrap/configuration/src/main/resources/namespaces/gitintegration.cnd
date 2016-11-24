@@ -1,7 +1,15 @@
 <'gitintegration'='http://www.onehippo.org/gitintegration/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
-[gitintegration:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+[gitintegration:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[gitintegration:bannerdocument] > gitintegration:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gitintegration:contentdocument] > gitintegration:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
 
