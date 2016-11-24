@@ -23,6 +23,7 @@ public class GitResource {
             @Context HttpServletRequest request,
             @FormParam("events") String events) {
 
+        System.out.println("push .... " + events);
 
         ResponseMessage message = new ResponseMessage();
         message.setCode(200);//HttpStatus.SC_OK);
